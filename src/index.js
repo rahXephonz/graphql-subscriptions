@@ -39,6 +39,7 @@ const server = new ApolloServer({
       userId: req && req.headers.authorization ? getUserId(req) : null,
     };
   },
+  introspection: true,
   subscriptions: {
     onConnect: (connectionParams) => {
       if (connectionParams.authToken) {
