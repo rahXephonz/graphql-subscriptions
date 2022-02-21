@@ -40,6 +40,7 @@ const server = new ApolloServer({
     };
   },
   introspection: true,
+  playground: true,
   subscriptions: {
     onConnect: (connectionParams) => {
       if (connectionParams.authToken) {
