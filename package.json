@@ -14,14 +14,12 @@
     "apollo-server": "^2.19.0",
     "apollo-server-express": "^2.5.0",
     "bcryptjs": "2.4.3",
-    "express": "^4.17.3",
+    "dotenv": "^16.0.0",
     "graphql-subscriptions": "^2.0.0",
-    "http": "^0.0.1-security",
     "jsonwebtoken": "8.5.1"
   },
   "devDependencies": {
     "@prisma/cli": "^2.12.1",
-    "nodemon": "^2.0.6",
-    "rimraf": "^3.0.2"
+    "nodemon": "^2.0.6"
   }
 }
