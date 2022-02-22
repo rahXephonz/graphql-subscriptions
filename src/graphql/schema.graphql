@@ -1,6 +1,6 @@
 type Query {
   info: String!
-  feed(skip: Int, take: Int): Feed
+  feed(offset: Int!, limit: Int!): Feed
   me: User
 }
 
