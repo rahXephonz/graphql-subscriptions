@@ -3,10 +3,6 @@
 version: 2.1
 orbs:
   heroku: circleci/heroku@0.0.10
-# Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   heroku_deploy:
     jobs:
