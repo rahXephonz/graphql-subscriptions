@@ -1,3 +1,4 @@
-# hackernews-graphql-js
+# ⚒️ GraphQL Subscriptions
 
-This repository contains the final project for the [**GraphQL.js tutorial**](https://www.howtographql.com/graphql-js/0-introduction/) on [How to GraphQL](https://www.howtographql.com/). Note that it also serves as foundation for all frontend tutorials on the site.
+This repository is for learn deep more about graphql subscriptions using apollo v2 and prisma v2
+Maybe in the future i will change all module dependencies
