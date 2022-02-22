@@ -54,6 +54,7 @@ const server = new ApolloServer({
         };
       }
     },
+    path: "/subscriptions",
   },
 });
 

@@ -7,7 +7,8 @@
     "dev": "nodemon",
     "push:db": "npx prisma db push --preview-feature",
     "destroy:db": "npx prisma migrate reset --preview-feature",
-    "studio": "npx prisma studio"
+    "studio": "npx prisma studio",
+    "restart": "heroku restart -a graphqljs-api"
   },
   "dependencies": {
     "@prisma/client": "^2.12.1",
